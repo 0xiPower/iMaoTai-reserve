@@ -13,8 +13,6 @@ on:
 
 env:
   TZ: Asia/Shanghai
-  http_proxy: http://202.101.213.77:18356
-  https_proxy: http://202.101.213.77:18356
 
 permissions:
   contents: read
