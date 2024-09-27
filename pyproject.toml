@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "imaotai-reserve"
+version = "0.1.0"
+description = ""
+authors = ["Power <powerlee603@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = ">=2.31.0,<2.32.0"
+pycryptodome = "3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
