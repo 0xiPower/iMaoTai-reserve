@@ -3,7 +3,7 @@ name = "iMaoTai-reserve"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
-    {name = "Power", email = "powerleecn@foxmail.com"},
+    {name = "Power", email = "sunk1ng@foxmail.com"},
 ]
 dependencies = [
     "requests~=2.31.0",
