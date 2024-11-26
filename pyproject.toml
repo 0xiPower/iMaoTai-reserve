@@ -1,16 +1,18 @@
-[tool.poetry]
-name = "imaotai-reserve"
+[project]
+name = "iMaoTai-reserve"
 version = "0.1.0"
-description = ""
-authors = ["Power <powerlee603@gmail.com>"]
+description = "Default template for PDM package"
+authors = [
+    {name = "Power", email = "powerleecn@foxmail.com"},
+]
+dependencies = [
+    "requests~=2.31.0",
+    "pycryptodome==3.17",
+]
+requires-python = "==3.11.*"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-requests = ">=2.31.0,<2.32.0"
-pycryptodome = "3.17"
+license = {text = "MIT"}
 
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.pdm]
+distribution = false
