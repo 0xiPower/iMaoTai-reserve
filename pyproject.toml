@@ -1,18 +1,10 @@
 [project]
-name = "iMaoTai-reserve"
+name = "imaotai-reserve"
 version = "0.1.0"
-description = "Default template for PDM package"
-authors = [
-    {name = "Power", email = "sunk1ng@foxmail.com"},
-]
-dependencies = [
-    "requests~=2.31.0",
-    "pycryptodome==3.17",
-]
-requires-python = "==3.11.*"
+description = "Add your description here"
 readme = "README.md"
-license = {text = "MIT"}
-
-
-[tool.pdm]
-distribution = false
+requires-python = ">=3.11"
+dependencies = [
+    "pycryptodome>=3.21.0",
+    "requests>=2.32.3",
+]

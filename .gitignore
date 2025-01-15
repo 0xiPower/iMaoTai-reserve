@@ -11,4 +11,6 @@ __pycache__
 .venv
 .env
 .pdm-python
+.python-version
 pdm.lock
+uv.lock
